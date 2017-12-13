@@ -1,0 +1,32 @@
+.footer {
+    height: 150px;
+    background-color: $secondary-color;
+    padding-top: 50px;
+}
+.footer__content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+.footer__navigation {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+.footer__navigation > li {
+    display: inline-block;
+}
+.footer__navigation > li > a {
+    text-decoration: none;
+    display: block;
+    margin-right: 20px;
+    color: #FFFFFF;
+}
+@media (max-width: 500px) {
+    .footer {
+        padding-top: 20px;
+    }
+    .footer__navigation > li {
+        display: block;
+    }
+}

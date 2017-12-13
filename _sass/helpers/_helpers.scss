@@ -1,0 +1,48 @@
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
+
+%left {
+    float: left;
+}
+.left {
+    float: left;
+}
+%right {
+    float: right;
+}
+.right {
+    float: right;
+}
+%centered-text {
+    text-align: center;
+}
+.centered-text {
+    text-align: center;
+}
+%left-text {
+    text-align: left;
+}
+.left-text {
+    text-align: left;
+}
+%right-text {
+    text-align: right;
+}
+.right-text {
+    text-align: right;
+}
+
+.media { margin:10px; }
+.media, .media__right { overflow:hidden; _overflow:visible; zoom:1; }
+.media .media__left { float:left; margin-right: 10px; }
+.media .media__left { display:block; }

@@ -1,0 +1,27 @@
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #5e617a;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #5e617a;
+    opacity: 1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #5e617a;
+    opacity: 1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #5e617a;
+}
+
+.form__input {
+    border: 0;
+    background-color: #4a4d66;
+    padding: 20px;
+    resize: none;
+    border-bottom: 5px solid #4a4d66;
+}
+.form__input:focus, .form__input:focus {
+    outline: none;
+    border-bottom: 5px solid #6b6e87;
+}
+

@@ -1,0 +1,19 @@
+.list {
+    margin: 0 0 30px 0;
+    padding: 0 0 0 55px;
+    list-style-type: none;
+}
+.list > li {
+    position: relative;
+    margin-bottom: 12px;
+}
+.list > li:before {
+    content: " ";
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top: 7px;
+    left: -50px;
+    border-radius: 50%;
+    background-color: #fee440;
+}

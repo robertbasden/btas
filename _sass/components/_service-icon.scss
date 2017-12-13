@@ -1,0 +1,18 @@
+.service-icon {
+    width: 200px;
+    height: 200px;
+    background-color: #31344d;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px;
+    @include border-radius(50%);
+}
+.service-icon--limited {
+    background-image: url('../img/limited.png');
+}
+.service-icon--sole {
+    background-image: url('../img/sole.png');
+}
+.service-icon--partnerships {
+    background-image: url('../img/partnerships.png');
+}

@@ -1,0 +1,22 @@
+.btn {
+    padding: 15px 40px;
+    font-size: 14px;
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: $tertiary-color;
+    color: $tertiary-text-color;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid #FFFFFF;
+    border-radius: 2px;
+    position: relative;
+}
+.btn:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.btn--large {
+    padding: 30px 80px;
+    font-size: 22px;
+}

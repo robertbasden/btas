@@ -1,0 +1,46 @@
+.header {
+    height: 100px;
+    background-color: #FFFFFF;
+}
+.header__logo {
+    padding-top: 10px;
+    border: 0;
+}
+.header__content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+.header__navigation {
+    margin: 0;
+    padding: 0;
+    float: right;
+    margin-top: 30px;
+}
+.header__navigation > li {
+    display: inline-block;
+}
+.header__navigation > li > a {
+    font-family: $bold-font;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    margin-right: 20px;
+    color: $primary-color;
+}
+
+@media (max-width: 750px) {
+    body {
+        margin-top: 100px;
+    }
+    .header {
+        top: 0;
+        left: 0;
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+    }
+    .header__navigation {
+        display: none;
+    }
+}

@@ -1,0 +1,24 @@
+@mixin box-shadow($top, $left, $blur, $color, $inset:"") {
+    -webkit-box-shadow:$top $left $blur $color #{$inset};
+    -moz-box-shadow:$top $left $blur $color #{$inset};
+    box-shadow:$top $left $blur $color #{$inset};
+}
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    border-radius: $radius;
+}
+
+@mixin transform($transform) {
+    transform: $transform;
+    -moz-transform: $transform;
+    -webkit-transform: $transform;
+  -ms-transform: $transform;
+}
+
+@mixin transition($transition) {
+    transition: $transition;
+    -moz-transition: $transition;
+    -webkit-transition: $transition;
+  -ms-transition: $transition;
+}

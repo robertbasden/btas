@@ -1,0 +1,22 @@
+---
+layout: default
+title: News
+---
+
+<div class="left-bar">
+
+    {% for post in site.posts %}
+        <div class="blog-post blog-post__with-divider cf">
+            <div class="blog-post__date right">{{ post.date | date: "%d/%m/%Y" }}</div>
+            <h1 class="blog-post__title">{{ post.title }}</h1>
+            <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+            <a href="{{site.url}}{{site.baseurl}}{{ post.url }}" class="btn contact-form__input">More &gt;</a>
+        </div>
+    {% endfor %}
+
+</div><!--
+--><div class="right-bar">
+
+    {% include archive_widget.html %}
+
+</div>

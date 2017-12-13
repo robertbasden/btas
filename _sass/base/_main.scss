@@ -1,0 +1,28 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html, body {
+    height: 100%;
+}
+body {
+    background-color: $primary-color;
+    color: $primary-text-color;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+a {
+    color: #FFFFFF;
+}
+
+p {
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
